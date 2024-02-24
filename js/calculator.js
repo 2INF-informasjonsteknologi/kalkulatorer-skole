@@ -1,7 +1,7 @@
 const readline = require("readline");
 
 function main() {
-  console.log("Velkommen til det enkle kalkulatorprogrammet!");
+  console.log("Velkommen til den super kule kalkulatoren!!");
 
   const rl = readline.createInterface({
     input: process.stdin,

@@ -1,7 +1,7 @@
 def main():
-    print("Velkommen til det enkle kalkulatorprogrammet!")
+    print("Velkommen til den super kule kalkulatoren!")
 
-    # Meny for brukeren
+
     print("\nHva vil du gjøre?:")
     print("1. Addisjon")
     print("2. Subtraksjon")
@@ -11,7 +11,6 @@ def main():
     choice = input("Skriv inn valget ditt (1/2/3/4): ")
 
 
-    # Input to heltall fra brukeren
     num1 = int(input("Skriv inn det første heltallet: "))
     num2 = int(input("Skriv inn det andre heltallet: "))
 

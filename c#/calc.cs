@@ -4,16 +4,8 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Velkommen til det enkle kalkulatorprogrammet!");
+        Console.WriteLine("Velkommen til den super kule kalkulatoren!");
 
-        // Input to heltall fra brukeren
-        Console.Write("Skriv inn det første heltallet: ");
-        int num1 = Convert.ToInt32(Console.ReadLine());
-
-        Console.Write("Skriv inn det andre heltallet: ");
-        int num2 = Convert.ToInt32(Console.ReadLine());
-
-        // Meny for brukeren
         Console.WriteLine("\nVelg en av følgende operasjoner:");
         Console.WriteLine("1. Addisjon");
         Console.WriteLine("2. Subtraksjon");
@@ -22,6 +14,13 @@ class Program
 
         Console.Write("Skriv inn valget ditt (1/2/3/4): ");
         char choice = Convert.ToChar(Console.ReadLine());
+
+        Console.Write("Skriv inn det første heltallet: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Skriv inn det andre heltallet: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+
 
         switch (choice)
         {
